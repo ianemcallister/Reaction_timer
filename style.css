@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.container {
+    width: 1050px;
+    margin:0 auto;
+    margin-left: 10px;
+}
+
+#box {
+    position: relative;
+    float: left;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display:none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.outer-border{
+    border: 2px solid green;
+}

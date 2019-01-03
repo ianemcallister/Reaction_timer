@@ -1,54 +1,25 @@
 <!doctype html>
 <html>
+
 <head>
 	<title>Learning Javascript</title>
 	<meta charset="utf-8" />
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	
-
+	<link rel="stylesheet" href="style.css">
 </head>
 
-<style>
-	body{
-    	margin: 0px;
-        font-family: Verdana, Geneva, sans-serif;
-    }
-
-    .container {
-    	width: 1050px;
-    	margin:0 auto;
-    	margin-left: 10px;
-    }
-
-	#box {
-		position: relative;
-		float: left;
-		height: 100px;
-		width: 100px;
-		background-color: red;
-		display:none;
-	}
-
-	.bold {
-		font-weight: bold;
-	}
-</style>
-
 <body>
-
 	<div class="container">
-		
 		<h1>Test Your Reactions!</h1>
 		<p>Click on the boxes and circles as quickly as you can!</p>
 		<p class="bold">Your time: <span id="time"></span></p>
-
-		<div id="box"> </div>
-	
-	</div>	
+		<p class="bold">Best time: <span id="best-time"></span></p>
+		<div id="box"></div>
+	</div>
 
 	<script type="text/Javascript" src="scripts.js"></script>
 
 </body>
+
 </html>
